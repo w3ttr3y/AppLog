@@ -3,3 +3,29 @@ AppLog is an application which was originally meant to facilitate creating event
 Since the current form of AppLog utilizes log4net, it can utilize any of its appenders (or you could write your own) so its possible to log to a file, the event log (either the generic application log or specific to your application), to send e-mail, etc.
 
 Finally, you can use log4net's udp appender to log to a udp socket and use Apache's Chainsaw (http://logging.apache.org/chainsaw/index.html) to watch the logs in real time.
+
+AppLog utiltizes both NConsoler and log4net
+
+NConsoler - http://nconsoler.csharpus.com/
+Google Code Homepage - http://code.googl.com/p/nconsoler/
+License Mozilla Public License 1.1 - http://www.mozilla.org/MPL/
+
+Section 3.2 Acailability of Source Code. states:
+Any Modification which You create or to which You contribute must be made available in Source Code...
+
+As I have mode no modifications to NConsoler, I am not providing the source; if you want it, please get it from the csharpus, it's creators, who are currently distributing it via the Google Project page listed above.
+
+
+log4net - http://logging.apache.org/log4net
+License - Apache License, Version 2.0 - http://logging.apache.org/log4net/license.html
+
+Again, I have made no modifications; if you want the source please obtain it directly from the upstream source.
+
+I did receive a NOTICE file, so I'm including it as log4net.NOTICE and I am also reproducing it's contents here:
+   Apache log4net
+   Copyright 2004-2011 The Apache Software Foundation
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+
+Please note, that Apache (http://www.apache.org/) nor csharpus (http://csharpus) had anything to do with this program other than they write libraries I found useful. They are listed here not as a claim of endorsement, but merely to provide proper credit to their libraries.
