@@ -2,6 +2,4 @@ AppLog is an application which was originally meant to facilitate creating event
 
 Since the current form of AppLog utilizes log4net, it can utilize any of its appenders (or you could write your own) so its possible to log to a file, the event log (either the generic application log or specific to your application), to send e-mail, etc.
 
-You can use log4net's udp appender to log to a udp socket and use Apache's Chainsaw (http://logging.apache.org/chainsaw/index.html) to watch the logs in real time.
-
-Finally, you can implement your own appender and then use it to persist the log entries.
+Finally, you can use log4net's udp appender to log to a udp socket and use Apache's Chainsaw (http://logging.apache.org/chainsaw/index.html) to watch the logs in real time.
