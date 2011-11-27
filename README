@@ -10,11 +10,10 @@ NConsoler - http://nconsoler.csharpus.com/
 Google Code Homepage - http://code.googl.com/p/nconsoler/
 License Mozilla Public License 1.1 - http://www.mozilla.org/MPL/
 
-Section 3.2 Acailability of Source Code. states:
+Section 3.2 Availability of Source Code. states:
 Any Modification which You create or to which You contribute must be made available in Source Code...
 
 As I have mode no modifications to NConsoler, I am not providing the source; if you want it, please get it from the csharpus, it's creators, who are currently distributing it via the Google Project page listed above.
-
 
 log4net - http://logging.apache.org/log4net
 License - Apache License, Version 2.0 - http://logging.apache.org/log4net/license.html
@@ -28,4 +27,6 @@ I did receive a NOTICE file, so I'm including it as log4net.NOTICE and I am also
    This product includes software developed at
    The Apache Software Foundation (http://www.apache.org/).
 
-Please note, that Apache (http://www.apache.org/) nor csharpus (http://csharpus) had anything to do with this program other than they write libraries I found useful. They are listed here not as a claim of endorsement, but merely to provide proper credit to their libraries.
+I don't mean to sound like I'm trying to minimize my obligations under these licenses, I simply feel you are best off obtaining it from them so you have a chance to review newer versions which may contain bug fixes or newer versions.
+
+Please note, that Apache (http://www.apache.org/) nor csharpus (http://csharpus.com) had anything to do with this program other than they write libraries I found useful. They are listed here not as a claim of endorsement, but merely to provide proper credit to their libraries.
