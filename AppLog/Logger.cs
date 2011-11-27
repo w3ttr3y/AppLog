@@ -28,7 +28,7 @@ namespace AppLog
         public string ApplicationName
         {
             get { return _applicationName ?? (_applicationName = "AppLog Client");  }
-            set { this._applicationName = value; } //TODO: should there be any limits?
+            set { _applicationName = value; } //TODO: should there be any limits?
         }
 
         /// <summary>
