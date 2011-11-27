@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AppLog")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A simple program to log messages to the application log (under event viewer) from bat files.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("AppLog")]
-[assembly: AssemblyCopyright("Copyright ©  2011")]
+[assembly: AssemblyCopyright("Copyright © 2011 William E. Tries III (w3ttr3y)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
