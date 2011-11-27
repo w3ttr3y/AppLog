@@ -2,6 +2,11 @@
 
 namespace AppLog
 {
+    /// <summary>
+    /// A helper class for utilizing enums.
+    /// 
+    /// At this point, it only contains <see cref="Parse&lt;Enum&gt;">Parse</see>
+    /// </summary>
     public class EnumHelper
     {
         /// <summary>
@@ -14,11 +19,15 @@ namespace AppLog
         /// <returns></returns>
         internal static TEnum Parse<TEnum>(string value, bool ignoreCase, TEnum def) where TEnum : struct, IConvertible
         {
+            // Can't constrain type parameters to being an enum,
+            // so the struct, IConvertible constraint
+            // and then checking if it was an Enum was the best I could figure out
             if (!typeof(TEnum).IsEnum)
             {
                 throw new ArgumentException("Type TEnum must be an enumerated type.");
             }
 
+            //Try to parse the level, if we can't set it to the default (TEnum def)
             TEnum lev;
             if (!Enum.TryParse(value, ignoreCase, out lev))
             {
